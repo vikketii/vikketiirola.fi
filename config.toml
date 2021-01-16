@@ -1,4 +1,59 @@
-baseURL = "http://example.org/"
+baseURL = "http://example.org"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "[webpage]"
 theme = "hugo-ink"
+paginate = 5
+
+copyright = ""
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = ""
+disqusShortname = "ink-demo"
+
+[params]
+	subtitle = ""
+
+	# Optional 64x64 avatar image.
+	avatar = ""
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About me"
+url = "/about-me"
+weight = 3
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/vikketii"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://linkedin.com/in/vikke-tiirola"
+
+[taxonomies]
+   tag = "tags"
