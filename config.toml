@@ -1,4 +1,4 @@
-baseURL = "https://vikketii.github.io"
+baseURL = "https://vikketii.github.io/"
 languageCode = "en-us"
 title = "[webpage]"
 theme = "hugo-ink"
@@ -12,6 +12,9 @@ pygmentscodefencesguesssyntax = true
 
 googleAnalytics = ""
 disqusShortname = ""
+
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
 	subtitle = ""
